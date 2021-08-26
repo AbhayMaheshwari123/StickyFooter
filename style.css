@@ -1,0 +1,38 @@
+html, body {
+    margin:0;
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+    padding: 20px;
+  }
+  .footer {
+    flex-shrink: 0;
+    padding: 20px;
+  }
+
+  footer{
+      background-color: indigo;
+      text-align: center;
+      color: lawngreen;
+      font-size: larger;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightcoral;
+}
+
+.home,.cu{
+    font-size: 1.5rem;
+}
+
+.header{
+    font-size: 2rem;
+}
